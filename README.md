@@ -29,7 +29,7 @@ See how many treasures your site holds and the stats related to the riches.
 1. Ensure **Xophz COMPASS** is installed and active.
 2. Upload `xophz-compass-treasure-trove` to `/wp-content/plugins/`.
 3. Activate through the Plugins menu.
-4. Access via the COMPASS dashboard → **Treasure Trove**.
+4. Access via the My Compass dashboard → **Treasure Trove**.
 
 ## Frontend Routes
 
