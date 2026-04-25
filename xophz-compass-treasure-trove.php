@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Category:          Castle Walls
  * Plugin Name:       Xophz Treasure Trove
- * Plugin URI:        http://www.midnightnerd.com/
+ * Plugin URI:        https://github.com/HalloftheGods/xophz-compass-treasure-trove
  * Description:       The Sovereign Data Vault: Securely encrypt, store, and manage your personal data and privacy settings.
  * Version:           26.4.24
  * Author:            Hall of the Gods, Inc.
