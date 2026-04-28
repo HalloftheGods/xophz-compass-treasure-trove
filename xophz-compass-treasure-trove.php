@@ -60,6 +60,21 @@ function deactivate_xophz_compass_treasure_trove() {
 register_activation_hook( __FILE__, 'activate_xophz_compass_treasure_trove' );
 register_deactivation_hook( __FILE__, 'deactivate_xophz_compass_treasure_trove' );
 
+add_filter( 'compass_perform_widgets', function( $widgets ) {
+	$widgets[] = array(
+		'key'           => 'treasure-trove-kpi',
+		'plugin'        => 'xophz-compass-treasure-trove',
+		'title'         => 'Sovereign KPIs',
+		'icon'          => 'fad fa-treasure-chest',
+		'color'         => '#ffd700', // Gold
+		'component'     => 'perform-widget-treasure-trove',
+		'data_endpoint' => '/wp-json/xophz/v1/treasure-trove/performance',
+		'size'          => 'md',
+		'order'         => 10,
+	);
+	return $widgets;
+});
+
 /**
  * The core plugin class that is used to define internationalization,
  * admin-specific hooks, and public-facing site hooks.
