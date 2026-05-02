@@ -14,6 +14,7 @@
  *
  * @wordpress-plugin
  * Category:          Castle Walls
+ * Group:             BI
  * Plugin Name:       Xophz Treasure Trove
  * Plugin URI:        https://github.com/HalloftheGods/xophz-compass-treasure-trove
  * Description:       The Sovereign Data Vault: Securely encrypt, store, and manage your personal data and privacy settings.
