@@ -54,8 +54,7 @@ function activate_xophz_compass_treasure_trove() {
  * This action is documented in includes/class-xophz-compass-treasure-trove-deactivator.php
  */
 function deactivate_xophz_compass_treasure_trove() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/class-xophz-compass-treasure-trove-deactivator.php';
-	Xophz_Compass_Treasure_Trove_Deactivator::deactivate();
+	Xophz_Compass_Treasure_Trove::deactivate();
 }
 
 register_activation_hook( __FILE__, 'activate_xophz_compass_treasure_trove' );
