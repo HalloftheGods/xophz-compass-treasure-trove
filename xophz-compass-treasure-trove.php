@@ -19,8 +19,8 @@
  * Plugin URI:        https://github.com/HalloftheGods/xophz-compass-treasure-trove
  * Description:       The Sovereign Data Vault: Securely encrypt, store, and manage your personal data and privacy settings.
  * Version:           26.9.4
- * Author:            Hall of the Gods, Inc.
- * Author URI:        http://www.hallofthegods.com/
+ * Author:            My Compass Consulting
+ * Author URI:        https://mycompassconsulting.com/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       xophz-compass-treasure-trove
